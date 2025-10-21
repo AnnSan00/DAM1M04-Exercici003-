@@ -2,11 +2,22 @@
 .autocenter {
   max-width: 1264px;
   margin: auto;
+  text-align: center;
 }
 
 body{
 	margin: 0px;
 }
+
+p{
+	font-size: 20px;
+    line-height: 1.45;
+    letter-spacing: .001em;
+	text-align: center;
+	
+}
+
+
 /* === Botones === */
 .boton,
 .boton_now1 {
@@ -47,7 +58,7 @@ body{
 
 /* === Encabezados de sección === */
 .h2_seccion {
-  max-width: 680px;
+  max-width: 650px;
   margin: 0 auto;
   font-size: 60px;
   font-weight: 600;
