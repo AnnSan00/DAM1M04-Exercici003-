@@ -4,6 +4,9 @@
   margin: auto;
 }
 
+body{
+	margin: 0px;
+}
 /* === Botones === */
 .boton,
 .boton_now1 {
@@ -29,11 +32,17 @@
 .seccion_blanca {
   background-color: white;
   color: black;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
 }
 
 .seccion_negra {
   background-color: black;
   color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
 }
 
 /* === Encabezados de sección === */
