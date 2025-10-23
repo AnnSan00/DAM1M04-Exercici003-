@@ -9,10 +9,20 @@ body{
 	margin: 0px;
 }
 
+
+.imagen {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1264px; 
+}
+
+
+
 p{
 	font-size: 20px;
-    line-height: 1.45;
-    letter-spacing: .001em;
+  line-height: 1.45;
+  letter-spacing: .001em;
 	text-align: center;
 	
 }
@@ -66,6 +76,7 @@ p{
   letter-spacing: -0.02em;
   text-align: center;
   font-family: sans-serif;
+  position: relative;
 }
 
 .h2_seccion.blanca {
@@ -98,6 +109,8 @@ p{
   backdrop-filter: blur(10px) saturate(140%);
   -webkit-backdrop-filter: blur(10px) saturate(140%);
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  border-top: 0.1px solid grey;
+
 }
 
 .topnav .brand {
@@ -132,7 +145,7 @@ p{
 footer {
   color: white;
   font-weight: bold;
-  background-color: blue;
+  background-color: buel;
   font-size: small;
   margin-top: 1090%; /* ⚠️ Revisa este valor, puede romper el diseño */
   position: static;
