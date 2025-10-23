@@ -16,7 +16,13 @@ body{
   margin-right: auto;
   width: 1264px; 
 }
+.imagen_2{
+  border-radius: 100px;
+}
+.greet_looking{
+  width: 100%; 
 
+}
 
 
 p{
