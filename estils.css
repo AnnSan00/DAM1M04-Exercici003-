@@ -17,6 +17,16 @@ p {
   text-align: center;
 }
 
+video{
+  max-width: 1264px;
+  margin-left: 15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+  border-radius: 30px;
+
+}
+
 /* === Imágenes === */
 img {
   display: block;
@@ -27,11 +37,11 @@ img {
 
 .imagen {
   width: 1264px;
-  margin-top: 20%;
+  margin-top: 5%;
 }
 
 .imagen_2 {
-  border-radius: 100px;
+  border-radius: 10%;
 }
 
 .imagen-estilo {
@@ -72,7 +82,9 @@ img {
   display: block;
   width: fit-content;
 }
-
+.enlace{
+  text-align: center;
+}
 .boton_now1:hover {
   background-color: #ff4169;
   color: azure;
@@ -180,25 +192,45 @@ footer {
   position: relative;
 }
 
-/* === Responsive ajustes básicos === */
-@media (max-width: 768px) {
-  .h2_seccion {
-    font-size: 36px;
-  }
 
-  .topnav {
-    flex-direction: column;
-    height: auto;
-    padding: 10px;
-  }
 
-  .topnav .menu {
-    flex-direction: column;
-    gap: 10px;
-  }
 
-  .imagen {
-    width: 100%;
-    margin-top: 10%;
-  }
-}
+
+/*Cuadarados*/
+.container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .box {
+      flex: 0 1 calc(33.333% - 40px); /* 3 columnas sin grid */
+      background-color: #f9f9f9;
+      border: 1px solid #ddd;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      text-align: center;
+    }
+
+  .box_negra{
+      flex: 0 1 calc(33.333% - 40px); /* 3 columnas sin grid */
+      background-color:#222;
+      border: 1px solid #222;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      text-align: center;
+    }
+
+
+    .icon {
+      font-size: 40px;
+      color: goldenrod;
+      margin-bottom: 10px;
+      width: 20%;
+      margin-left: 0%;
+    }
+
+
