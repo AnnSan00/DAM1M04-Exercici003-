@@ -84,6 +84,7 @@ img {
 }
 .enlace{
   text-align: center;
+  margin-left: 43%;
 }
 .boton_now1:hover {
   background-color: #ff4169;
@@ -127,12 +128,13 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 0.1px solid grey;
+  border-bottom: 0.1px solid rgba(128, 128, 128, 0.848);
   margin-top: 1%;
   position: sticky;
   top: 0;
   z-index: 999;
   background-color: white;
+  margin-bottom: 10px;;
 }
 
 /* === Navegación principal === */
@@ -147,8 +149,6 @@ img {
   gap: 16px;
   padding: 0 20px;
   backdrop-filter: blur(10px) saturate(140%);
-  -webkit-backdrop-filter: blur(10px) saturate(140%);
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
   background-color: rgba(255, 255, 255, 0.8);
 }
 
@@ -168,17 +168,16 @@ img {
 
 .topnav .menu a {
   text-decoration: none;
-  color: #0f172a;
   font-weight: 500;
   padding: 8px 10px;
   border-radius: 10px;
   transition: background-color 120ms ease, transform 80ms ease;
 }
 
-.topnav .menu a:hover {
-  background: rgba(255, 255, 255, 0.55);
-  transform: translateY(-1px);
+.colormenu {
+  color: #0f172a;
 }
+
 
 /* === Pie de página === */
 footer {
@@ -191,10 +190,6 @@ footer {
   margin-top: 100px;
   position: relative;
 }
-
-
-
-
 
 /*Cuadarados*/
 .container {
@@ -224,6 +219,38 @@ footer {
       text-align: center;
     }
 
+    .box_fran{
+      flex: 0 1 calc(80% - 50px); /* 2 columnas sin grid */
+      background-color:rgb(12, 189, 124);
+      border: 1px solid rgb(12, 189, 124);
+      padding: 20px;
+      box-shadow: 0 2px 5px rgb(12, 189, 124);
+      border-radius: 8px;
+      text-align: center;
+      color: white
+    }
+
+    .box_fran{
+      flex: 0 1 calc(40% - 50px); /* 2 columnas sin grid */
+      background-color:rgb(12, 189, 124);
+      border: 1px solid rgb(12, 189, 124);
+      padding: 20px;
+      box-shadow: 0 2px 5px rgb(12, 189, 124);
+      border-radius: 8px;
+      text-align: center;
+      color: white
+    }
+
+      .box_ny{
+      flex: 0 1 calc(40% - 50px); /* 2 columnas sin grid */
+      background-color:rgb(238, 244, 241);
+      border: 1px solid rgb(220, 226, 224);
+      padding: 20px;
+      box-shadow: 0 2px 5px rgb(220, 226, 224);
+      border-radius: 8px;
+      text-align: center;
+      color: black;
+    }
 
     .icon {
       font-size: 40px;
