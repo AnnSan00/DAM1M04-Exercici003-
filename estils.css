@@ -179,17 +179,7 @@ img {
 }
 
 
-/* === Pie de página === */
-footer {
-  color: white;
-  font-weight: bold;
-  background-color: #222;
-  font-size: small;
-  padding: 20px;
-  text-align: center;
-  margin-top: 100px;
-  position: relative;
-}
+
 
 /*Cuadarados*/
 .container {
@@ -261,3 +251,45 @@ footer {
     }
 
 
+/* === Pie de página === */
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.column h3 {
+  margin-bottom: 10px;
+}
+
+.column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.column ul li {
+  margin-bottom: 5px;
+}
+
+.column a {
+  text-decoration: none;
+  color: #333;
+}
+
+.footer-info {
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #666;
+}
